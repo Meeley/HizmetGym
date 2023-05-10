@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="-17dp">
+
+    <ImageButton
+        android:id="@+id/önbacak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="?android:attr/panelBackground"
+        android:src="@drawable/_nbacak"
+        app:layout_constraintBottom_toTopOf="@+id/dön"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="missingConstraints" />
+
+    <ImageButton
+        android:id="@+id/önkafa"
+        android:layout_width="136dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="396dp"
+        android:backgroundTint="?android:attr/panelBackground"
+        android:src="@drawable/_nkafa_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="missingConstraints" />
+
+    <ImageButton
+        android:id="@+id/öngöğüs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="396dp"
+        android:background="?attr/selectableItemBackground"
+        android:backgroundTint="?android:attr/panelBackground"
+        android:src="@drawable/_ng_g_s"
+        app:layout_constraintBottom_toBottomOf="@+id/dön"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="missingConstraints" />
+
+    <ImageButton
+        android:id="@+id/önkarin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="308dp"
+        android:background="?attr/selectableItemBackground"
+        android:backgroundTint="?android:attr/panelBackground"
+        android:src="@drawable/six_packs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="missingConstraints" />
+
+    <ImageButton
+        android:id="@+id/önkollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="280dp"
+        android:backgroundTint="?android:attr/panelBackground"
+        android:src="@drawable/_nkollar"
+        app:layout_constraintBottom_toBottomOf="@+id/dön"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="missingConstraints" />
+
+    <ImageButton
+        android:id="@+id/dön"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:backgroundTint="?android:attr/panelBackground"
+        android:scaleType="fitCenter"
+        android:src="@drawable/r"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="missingConstraints"/>
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/aclonica"
+        android:rotationX="37"
+        android:text="HizmetGYM"
+        android:textColor="#0D5373"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="148dp"
+        android:text="Sıkça Sorulan Sorular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Takvim"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Takvim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="148dp"
+        android:text="Takvim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
