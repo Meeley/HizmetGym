@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2023-05-31T06:08:26.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="zkFiRqrfuR2arl85BsAB" version="21.3.6">
+  <diagram name="Sayfa -1" id="KXNFNAzD82l4FM4D60sQ">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zIGlHDeocK-FYwGrawx6-1" value="Articles" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=186;height=20;" parent="1" vertex="1">
+          <mxGeometry x="30" y="20" width="706" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="zIGlHDeocK-FYwGrawx6-2" value="&lt;div&gt;User&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="zIGlHDeocK-FYwGrawx6-1" vertex="1">
+          <mxGeometry x="40" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIGlHDeocK-FYwGrawx6-4" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;dashed=1;" parent="zIGlHDeocK-FYwGrawx6-1" source="zIGlHDeocK-FYwGrawx6-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="54.5" y="649" as="sourcePoint" />
+            <mxPoint x="54.5" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIGlHDeocK-FYwGrawx6-6" value="click_QA_Sec()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="zIGlHDeocK-FYwGrawx6-1" edge="1">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="56" y="200" as="sourcePoint" />
+            <mxPoint x="275.5" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIGlHDeocK-FYwGrawx6-7" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;dashed=1;" parent="zIGlHDeocK-FYwGrawx6-1" target="zIGlHDeocK-FYwGrawx6-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="55" y="540" as="sourcePoint" />
+            <mxPoint x="68.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIGlHDeocK-FYwGrawx6-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;align=left;verticalAlign=top;spacingLeft=10;" parent="zIGlHDeocK-FYwGrawx6-1" vertex="1">
+          <mxGeometry x="52.5" y="190" width="5" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="zIGlHDeocK-FYwGrawx6-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;align=left;verticalAlign=top;spacingLeft=10;" parent="zIGlHDeocK-FYwGrawx6-1" vertex="1">
+          <mxGeometry x="491" y="200" width="5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zIGlHDeocK-FYwGrawx6-12" value="Click_A_Question()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="zIGlHDeocK-FYwGrawx6-1" edge="1" target="nmQmhZTI3H-EEq28VHM7-2">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="57.5" y="229.5" as="sourcePoint" />
+            <mxPoint x="250" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XNdUb1CxIkesmiMk3nuj-5" value=":AnArticle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="zIGlHDeocK-FYwGrawx6-1" vertex="1">
+          <mxGeometry x="443.5" y="90" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="nmQmhZTI3H-EEq28VHM7-2" value=":Q-A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zIGlHDeocK-FYwGrawx6-1">
+          <mxGeometry x="226" y="90" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="nmQmhZTI3H-EEq28VHM7-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="zIGlHDeocK-FYwGrawx6-1">
+          <mxGeometry x="273.5" y="200" width="5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nmQmhZTI3H-EEq28VHM7-10" value="view_An_Article()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;startArrow=block;startFill=1;" edge="1" parent="zIGlHDeocK-FYwGrawx6-1">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="278.5" y="270" as="sourcePoint" />
+            <mxPoint x="493" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nmQmhZTI3H-EEq28VHM7-14" value="get_An_Article()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;startArrow=none;startFill=0;" edge="1" parent="zIGlHDeocK-FYwGrawx6-1">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="276.5" y="240" as="sourcePoint" />
+            <mxPoint x="491" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

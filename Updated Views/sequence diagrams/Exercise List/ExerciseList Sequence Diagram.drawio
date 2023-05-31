@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2023-05-31T06:31:43.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="6GJP338CoKRi44bhawsJ" version="21.3.6">
+  <diagram name="Sayfa -1" id="hJsuxgz2gE2B-gIZRrc7">
+    <mxGraphModel dx="1050" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-1" value="ExerciseList" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=186;height=20;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-40" width="776" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-2" value="&lt;div&gt;User&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="BEHMrw8BVTVu88WIIxJO-1" vertex="1">
+          <mxGeometry x="40" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-4" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;dashed=1;" parent="BEHMrw8BVTVu88WIIxJO-1" source="BEHMrw8BVTVu88WIIxJO-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="54.5" y="649" as="sourcePoint" />
+            <mxPoint x="54.5" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-5" value=":ExerciseList" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="BEHMrw8BVTVu88WIIxJO-1" vertex="1">
+          <mxGeometry x="336" y="90" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;align=left;verticalAlign=top;spacingLeft=10;" parent="BEHMrw8BVTVu88WIIxJO-1" vertex="1">
+          <mxGeometry x="52.5" y="190" width="5" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;align=left;verticalAlign=top;spacingLeft=10;" parent="BEHMrw8BVTVu88WIIxJO-1" vertex="1">
+          <mxGeometry x="383.5" y="190" width="5" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-22" value="Click_An_Injury()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="BEHMrw8BVTVu88WIIxJO-1" edge="1">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="53.5" y="230" as="sourcePoint" />
+            <mxPoint x="383.5" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEHMrw8BVTVu88WIIxJO-7" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;dashed=1;" parent="BEHMrw8BVTVu88WIIxJO-1" target="BEHMrw8BVTVu88WIIxJO-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="55" y="740" as="sourcePoint" />
+            <mxPoint x="68.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2ScaQblbHwiLEyFaKBq-1" value=":Arm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="BEHMrw8BVTVu88WIIxJO-1" vertex="1">
+          <mxGeometry x="566" y="90" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="O2ScaQblbHwiLEyFaKBq-2" value="get_A_Muscle()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;startArrow=block;startFill=1;exitX=-0.1;exitY=0.092;exitDx=0;exitDy=0;exitPerimeter=0;" parent="BEHMrw8BVTVu88WIIxJO-1" source="O2ScaQblbHwiLEyFaKBq-4" edge="1">
+          <mxGeometry x="-0.0303" width="160" relative="1" as="geometry">
+            <mxPoint x="496" y="240" as="sourcePoint" />
+            <mxPoint x="383.5" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2ScaQblbHwiLEyFaKBq-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;align=left;verticalAlign=top;spacingLeft=10;" parent="BEHMrw8BVTVu88WIIxJO-1" vertex="1">
+          <mxGeometry x="613.5" y="230" width="5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fudHeSazQStZk7qouCmw-1" value="View_Exrcises()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;startArrow=blockThin;startFill=1;strokeWidth=1;endSize=6;targetPerimeterSpacing=-6;sourcePerimeterSpacing=8;" parent="BEHMrw8BVTVu88WIIxJO-1" source="BEHMrw8BVTVu88WIIxJO-5" target="BEHMrw8BVTVu88WIIxJO-5" edge="1">
+          <mxGeometry x="0.4791" width="160" relative="1" as="geometry">
+            <mxPoint x="496" y="419.5" as="sourcePoint" />
+            <mxPoint x="824.5" y="419.5" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="456" y="370" />
+              <mxPoint x="506" y="370" />
+              <mxPoint x="506" y="340" />
+              <mxPoint x="466" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlbNSxHjZV-Je1leqH6b-1" value="apply_Block()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;rounded=0;startArrow=block;startFill=1;" edge="1" parent="BEHMrw8BVTVu88WIIxJO-1">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="613.5" y="310.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
